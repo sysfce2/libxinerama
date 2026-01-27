@@ -25,7 +25,7 @@
 project(
   'libXinerama',
   'c',
-  version: '1.1.5',
+  version: '1.1.6',
   license: 'MIT AND MIT-open-group AND X11',
   license_files: 'COPYING',
   meson_version: '>= 1.1.0',

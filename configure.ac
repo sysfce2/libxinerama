@@ -21,7 +21,7 @@
 
 # Initialize Autoconf
 AC_PREREQ([2.60])
-AC_INIT([libXinerama], [1.1.5],
+AC_INIT([libXinerama], [1.1.6],
         [https://gitlab.freedesktop.org/xorg/lib/libxinerama/-/issues],
         [libXinerama])
 AC_CONFIG_SRCDIR([Makefile.am])
