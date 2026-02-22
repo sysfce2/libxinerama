@@ -55,6 +55,11 @@ lib = library(
   version: '1.0.0',
   install: true,
 )
+dep = declare_dependency(
+  include_directories: 'include',
+  link_with: lib,
+)
+meson.override_dependency('xinerama', dep)
 
 install_headers(
   ['include/X11/extensions/Xinerama.h',
